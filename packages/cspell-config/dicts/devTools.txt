@@ -1,0 +1,3 @@
+lefthook
+bun
+bunx
