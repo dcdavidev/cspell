@@ -1,7 +1,6 @@
 {
   "name": "@davdevx/cspell-config",
   "version": "0.0.1",
-  "private": true,
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -22,5 +21,8 @@
   "dependencies": {
     "tslib": "^2.3.0",
     "@cspell/cspell-types": "^9.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
