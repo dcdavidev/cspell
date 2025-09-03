@@ -1,10 +1,10 @@
 {
   "name": "@dcdavidev/cspell",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "commit": "cz"
   },
-  "private": true,
   "dependencies": {
     "@dcdavidev/cspell-config": "workspace:*"
   },
@@ -34,9 +34,6 @@
     "typescript": "~5.8.2",
     "typescript-eslint": "^8.29.0"
   },
-  "workspaces": [
-    "packages/*"
-  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
