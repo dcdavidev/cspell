@@ -1,12 +1,12 @@
 {
-  "name": "@davdevx/cspell",
+  "name": "@dcdavidev/cspell",
   "license": "MIT",
   "scripts": {
     "commit": "cz"
   },
   "private": true,
   "dependencies": {
-    "@davdevx/cspell-config": "workspace:*"
+    "@dcdavidev/cspell-config": "workspace:*"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",

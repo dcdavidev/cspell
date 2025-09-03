@@ -1,4 +1,4 @@
-# @davdevx/cspell-config
+# @dcdavidev/cspell-config
 
 Shared configuration for [cspell](https://cspell.org/) used in Nx workspaces and projects.
 
@@ -7,13 +7,13 @@ This package provides a pre-configured set of dictionaries and ignores to stream
 ## Installation
 
 ```bash
-bun add -D @davdevx/cspell-config
+bun add -D @dcdavidev/cspell-config
 # or
-npm install -D @davdevx/cspell-config
+npm install -D @dcdavidev/cspell-config
 # or
-yarn add -D @davdevx/cspell-config
+yarn add -D @dcdavidev/cspell-config
 #or
-pnpm add -D @davdevx/cspell-config
+pnpm add -D @dcdavidev/cspell-config
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ export default defineConfig({
   version: '0.2',
   allowCompoundWords: true,
   words: [],
-  import: ['@davdevx/cspell-config'],
+  import: ['@dcdavidev/cspell-config'],
 });
 ```
 

@@ -4,5 +4,5 @@ export default defineConfig({
   version: '0.2',
   allowCompoundWords: true,
   words: [],
-  import: ['@davdevx/cspell-config'],
+  import: ['@dcdavidev/cspell-config'],
 });

@@ -1,6 +1,24 @@
 {
-  "name": "@davdevx/cspell-config",
+  "name": "@dcdavidev/cspell-config",
+  "description": "A collection of configuration files for cspell",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dcdavidev/cspell",
+    "directory": "packages/cspell-config"
+  },
+  "keywords": [
+    "cspell",
+    "cspell-config",
+    "spelling",
+    "spell-checker"
+  ],
+  "author": "Davide Di Criscito <dcdavidev@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dcdavidev/cspell/issues"
+  },
+  "homepage": "https://github.com/dcdavidev/cspell/blob/main/packages/cspell-config/README.md",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -16,7 +34,8 @@
     }
   },
   "files": [
-    "src/dicts"
+    "dicts",
+    "LICENSE"
   ],
   "dependencies": {
     "tslib": "^2.3.0",
