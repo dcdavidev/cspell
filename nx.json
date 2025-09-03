@@ -29,6 +29,6 @@
     "projects": ["!@dcdavidev/cspell", "packages/*"],
     "changelog": { "projectChangelogs": false, "workspaceChangelog": false },
     "version": { "conventionalCommits": true },
-    "git": { "commit": true, "tag": true, "push": true }
+    "git": { "commit": true, "tag": true, "push": true, "stageChanges": true }
   }
 }
